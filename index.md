@@ -21,8 +21,11 @@ When the training materials are ready, we'll send you a link to download our fre
 When you've finished all the lessons and are comfortable with everything you've learned, we'll help you find a new job!
 
 Step 1) Sign up - Give us your email now and we'll reserve you a spot in our first group
+
 Step 2) Download - We'll send you a link to download our free app when it's ready
+
 Step 3) Learn - Do the training on your own time: no classrooms, no teachers, no books
+
 Step 4) New Career - We put you in touch with companies interested in your expertise
 
 ### Why are we doing this?
