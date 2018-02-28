@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## Are you a Coal Miner looking for a new path?
 
-You can use the [editor on GitHub](https://github.com/natefossiljobs/natefossiljobs.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+We'll train you to work in the wind or solar industry and help you find a job for free!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Email us at hello@fossiljobs.com](hello@fossiljobs.com) to get started.
 
-### Markdown
+### Free? What's the catch?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Seriously, 100% free! There is no catch!
 
-```markdown
-Syntax highlighted code block
+The solar industry is growing like crazy and they need to hire good people.
 
-# Header 1
-## Header 2
-### Header 3
+We work with some of the largest companies in the industry and they pay us a commission for every qualified person we train and send their way!
 
-- Bulleted
-- List
+### So how does it work?
 
-1. Numbered
-2. List
+Just give us your email!
 
-**Bold** and _Italic_ and `Code` text
+When the training materials are ready, we'll send you a link to download our free app. At that point, just go through the materials in your spare time. 
 
-[Link](url) and ![Image](src)
-```
+When you've finished all the lessons and are comfortable with everything you've learned, we'll help you find a new job!
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Step 1) Sign up - Give us your email now and we'll reserve you a spot in our first group
+Step 2) Download - We'll send you a link to download our free app when it's ready
+Step 3) Learn - Do the training on your own time: no classrooms, no teachers, no books
+Step 4) New Career - We put you in touch with companies interested in your expertise
 
-### Jekyll Themes
+### Why are we doing this?
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/natefossiljobs/natefossiljobs.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Coal country has been hit hard by layoffs and automation. But miners made America what it is today. You're some of the hardest workers in this great country and you deserve a job you can be proud of.
