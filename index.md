@@ -14,11 +14,7 @@ We work with some of the largest companies in the industry and they pay us a com
 
 ### So how does it work?
 
-Just give us your email!
-
-When the training materials are ready, we'll send you a link to download our free app. At that point, just go through the materials in your spare time. 
-
-When you've finished all the lessons and are comfortable with everything you've learned, we'll help you find a new job!
+Just give us your email! When the training materials are ready, we'll send you a link to download our free app. At that point, just go through the materials in your spare time. When you've finished all the lessons and are comfortable with everything you've learned, we'll help you find a new job!
 
 Step 1) Sign up - Give us your email now and we'll reserve you a spot in our first group
 
