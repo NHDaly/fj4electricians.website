@@ -10,7 +10,7 @@ bottom_image: /images/coal.png
 		<div class="hero-text-container">
 			<h1 class="editable">Are you a Coal Miner looking for a new path?</h1>
 			<p class="subtext editable">We'll train you to work in the wind or solar industry and help you find a job for free!</p>
-			<div class="cta button alt"><a href="/signup">Sign Up</a></div>
+			<div class="cta button alt"><a href="#signup">Sign Up</a></div>
 		</div>
 	</div>
 	<div class="learn-more"><a href="#learn-more">Learn more <span class="arrow">&#x25BC;</span></a></div>
@@ -56,13 +56,94 @@ bottom_image: /images/coal.png
 		</div>
 	</section>
 
+	<section class="info" id="signup">
+		<div class="container">
+      <div class="text">
+        <h2 class="editable">Sign up now!</h2>
+      </div>
+      <div class="text-container contact-box">
+        <form id="signup-form" action="https://hooks.zapier.com/hooks/catch/2562156/kyoomr/" method="post" class="contact-form">
+          <input type="hidden" name="_to" value="hello@fossiljobs.com">
+
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter your name...">
+
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email" placeholder="Enter your email..." required>
+
+          <input type="submit" value="Sign Up">
+        </form>
+
+        <!-- After form submission -->
+        <div id="form-submitting" style="display:none">
+          Thank you! Submitting...
+        </div>
+        <div id="form-success" style="display:none">
+          Thank you! You should hear from us soon!
+        </div>
+        <div id="form-failed" style="display:none">
+          We're sorry, but something went wrong. Please try again.<br>
+          If you continue to experience problems, please let us know by emailing us at <a href="mailto:hello@fossiljobs.com">hello@fossiljobs.com</a>!
+        </div>
+
+        <div class="contact-details">
+          <h3>Feel free to email us at:</h3>
+          <p class="editable"><a href="mailto:hello@fossiljobs.com">hello@fossiljobs.com</a></p>
+        </div>
+      </div>
+    </div>
+	</section>
+
 	<section class="hero" style="background-image: url({% include relative-src.html src=page.bottom_image %})">
 		<div class="inner-hero text-container">
 			<div class="hero-text-container">
 				<h2 class="editable">Why are we doing this?</h2>
 				<p class="subtext editable">Coal country has been hit hard by layoffs and automation. But miners made America what it is today. You're some of the hardest workers in this great country and you deserve a job you can be proud of.</p>
-				<div class="cta button alt"><a href="/signup">Sign Up</a></div>
+				<div class="cta button alt"><a href="#signup">Sign Up</a></div>
 			</div>
 		</div>
 	</section>
 </div>
+
+<!-- Make sure to load jquery before our custom code -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript"></script>
+<script>
+// When the page is loaded, change the form to not actually go to that link,
+// but to do the submission silently.
+$(document).ready(function(){
+  var $form = $('#signup-form');
+  $form.submit(function(){
+    // Show the user we're submitting...
+    form_submitting();
+
+    // Now send the actual request
+    $.post($(this).attr('action'), $(this).serialize())
+      .done(function(response){
+        // We've gotten a response.
+        if (response.status == "success") {
+          form_success();
+        } else {  // get a non-success response
+          form_failed();
+        }
+      })
+      .fail(function() {  // don't get a response
+          form_failed();
+      });
+
+    return false;  // This says "don't actually follow the link" (so we don't leave the page).
+  });
+});
+
+function form_submitting() {
+  $('#signup-form').hide();
+  $('#form-submitting').show();
+}
+function form_success() {
+  $('#form-submitting').hide();
+  $('#form-success').show();
+}
+function form_failed() {
+  $('#form-submitting').hide();
+  $('#form-failed').show();
+}
+</script>
