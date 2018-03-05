@@ -129,8 +129,10 @@ $(document).ready(function(){
       .fail(function() {  // don't get a response
           form_failed();
       });
+      // Also log to Zapier spreadsheet.
+      $.post("https://hooks.zapier.com/hooks/catch/2562156/k3kzqi/", $form.serialize());
 
-    return false;  // This says "don't actually follow the link" (so we don't leave the page).
+      return false;  // This says "don't actually follow the link" (so we don't leave the page).
   });
 });
 
